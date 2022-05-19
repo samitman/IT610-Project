@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="static//styles.css">
+<link rel="stylesheet" href="../static/styles.css">
 
 <style>
     nav li
