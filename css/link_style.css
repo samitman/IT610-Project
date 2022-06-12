@@ -1,0 +1,8 @@
+a.download_link {
+    color:#d54ab6;
+}
+a.download_link:hover {
+    color: #8d2f78;
+    background-color: transparent;
+    text-decoration: underline;
+  }
