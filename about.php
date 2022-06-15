@@ -87,7 +87,7 @@
 	</div>
 	<div class="col-md-6 col-sm-6">
 		<h3>Code Breakdown</h3>
-		<div class="progress" style="height: 18px;">
+		<div class="progress" style="height: fit-content;">
 			<div class="progress-bar progress-bar-success" role="progressbar" style="width: 49%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">CSS: 56%</div>
 			<div class="progress-bar progress-bar-primary" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">PHP: 33%</div>
 			<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 13%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">HTML: 7%</div>
