@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <?php 
 	include("./partials/head_info.html");
 	include("./partials/scripts.html");
@@ -109,4 +106,3 @@
 </div>		
 
 </body>
-</html>
