@@ -88,10 +88,10 @@
 	<div class="col-md-6 col-sm-6">
 		<h3>Code Breakdown</h3>
 		<div class="progress" style="height:20px;">
-			<div class="progress-bar progress-bar-success" role="progressbar" style="width: 66%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="120">CSS: 56%</div>
-			<div class="progress-bar progress-bar-primary" role="progressbar" style="width: 39.6%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="120">PHP: 33%</div>
-			<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 9%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="120">HTML: 7%</div>
-			<div class="progress-bar progress-bar-danger" role="progressbar" style="width: 5.4%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="120">JS: 4%</div>
+			<div class="progress-bar progress-bar-success" role="progressbar" style="width: 55%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">CSS: 56%</div>
+			<div class="progress-bar progress-bar-primary" role="progressbar" style="width: 33%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">PHP: 33%</div>
+			<div class="progress-bar progress-bar-warning" role="progressbar" style="width: 7.5%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">HTML: 7%</div>
+			<div class="progress-bar progress-bar-danger" role="progressbar" style="width: 4.5%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">JS: 4%</div>
 		</div>
 	</div>
 </div>
