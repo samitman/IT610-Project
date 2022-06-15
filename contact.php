@@ -1,37 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Sam Itman - Contact</title>
-    <meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php 
+	include("./partials/head_info.html");
+?>
 
-	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/templatemo-style.css">
-	<link rel="stylesheet" href="css/link_style.css">
-	<!-- google web font css -->
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-	<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-
-	<meta property="og:image:secure_url" content="https://samitman.com/images/home-bg.jpg" />
-	<meta property="og:image" content="http://samitman.com/images/home-bg.jpg" />
-	<meta content="Visit my personal website to learn more about my background, experience, and skills!" property="og:description" />
-	<meta property="og:image:width" content="400" /> 
-	<meta property="og:image:height" content="300" />
-	
-</head>
 <body>
-	
 <!-- navigation -->
 
 	<div class="container">
