@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <?php 
 	include("./partials/head_info.html");
+	include("./partials/scripts.html");
 ?>
 
 <body>
@@ -57,12 +59,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/custom.js"></script>
 
 </body>
 </html>
