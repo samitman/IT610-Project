@@ -86,26 +86,11 @@
 		<p>Visit Github link provided on home page for more information!</p>
 	</div>
 	<div class="col-md-6 col-sm-6">
-		<strong>CSS</strong>
-		<span class="pull-right">55%</span>
-			<div class="progress">
-				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
-			</div>
-		<strong>PHP</strong>
-		<span class="pull-right">33%</span>
-			<div class="progress">
-				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
-			</div>
-		<strong>HTML</strong>
-		<span class="pull-right">7.5%</span>
-			<div class="progress">
-				<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="7.5" aria-valuemin="0" aria-valuemax="100" style="width: 7.5%;"></div>
-			</div>
-		<strong>JS</strong>
-		<span class="pull-right">4.5%</span>
-			<div class="progress">
-				<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="4.5" aria-valuemin="0" aria-valuemax="100" style="width: 4.5%;"></div>
-			</div>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+			<div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+			<div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
 	</div>
 </div>
 
