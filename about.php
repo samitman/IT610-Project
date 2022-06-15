@@ -5,7 +5,6 @@
 
 <body>
 <!-- navigation -->
-
 	<div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<?php include("./partials/navbar_header.html");?>
@@ -23,7 +22,6 @@
 <!-- bio section -->
 <div id="team">
 	<div class="container">
-    
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12" style="text-align: center;">
 				<h2>Meet Sam!</h2>
@@ -47,14 +45,15 @@
 			</div>
          </div>
          
+		 <!-- spacer -->
          <div class="row mt30">
-
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper" style="border: none !important;">
 					
 				</div>
 			</div>
 
+			<!-- short bio section -->
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper">
 					<img src="images/headshot.jpg" class="img-responsive" alt="team img">
@@ -66,6 +65,7 @@
 				</div>
 			</div>
 
+			<!-- spacer -->
 			<div class="col-md-4 col-sm-4 col-xs-9">
 				<div class="team-wrapper" style="border: none !important;">
 					
@@ -86,20 +86,25 @@
 		<p>Visit Github link provided on home page for more information!</p>
 	</div>
 	<div class="col-md-6 col-sm-6">
-		<strong>CSS3</strong>
-		<span class="pull-right">50%</span>
+		<strong>CSS</strong>
+		<span class="pull-right">55%</span>
 			<div class="progress">
-				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+				<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;"></div>
 			</div>
-		<strong>HTML5</strong>
-		<span class="pull-right">46.5%</span>
+		<strong>PHP</strong>
+		<span class="pull-right">33%</span>
 			<div class="progress">
-				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="46.5" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%;"></div>
+			</div>
+		<strong>HTML</strong>
+		<span class="pull-right">7.5%</span>
+			<div class="progress">
+				<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="7.5" aria-valuemin="0" aria-valuemax="100" style="width: 7.5%;"></div>
 			</div>
 		<strong>JS</strong>
-		<span class="pull-right">3.5%</span>
+		<span class="pull-right">4.5%</span>
 			<div class="progress">
-				<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="3.5" aria-valuemin="0" aria-valuemax="100" style="width: 4%;"></div>
+				<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="4.5" aria-valuemin="0" aria-valuemax="100" style="width: 4.5%;"></div>
 			</div>
 	</div>
 </div>

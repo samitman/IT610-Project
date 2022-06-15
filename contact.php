@@ -5,7 +5,6 @@
 
 <body>
 <!-- navigation -->
-
 	<div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<?php include("./partials/navbar_header.html");?>

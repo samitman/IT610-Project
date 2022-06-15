@@ -5,7 +5,6 @@
 
 <body>
 <!-- navigation -->
-
 	<div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<?php include("./partials/navbar_header.html");?>
@@ -83,7 +82,6 @@
          </div>
          
          <div class="row mt30">
-            
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<img src="images/article1.jpg" style="width:500px;height:300px;" onclick="javascript:window.location='https://news.njit.edu/it-student-sam-itman-helps-modernize-optum';" />
 			</div>
@@ -93,7 +91,6 @@
 			<div class="col-md-4 col-sm-4 col-xs-6">
 				<img src="images/githubImage.jpg" style="width:500px;height:300px;" onclick="javascript:window.location='https://github.com/samitman';" />
 			</div>
-            
 		</div>
 	</div>
 </div>		

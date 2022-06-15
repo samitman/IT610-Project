@@ -5,7 +5,6 @@
 
 <body>	
 <!-- navigation -->
-
 	<div class="container">
 		<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<?php include("./partials/navbar_header.html");?>
@@ -20,8 +19,7 @@
 	</div>
 </div>		
 
-<!-- portfolio section -->
-
+<!-- resume section -->
 <div id="portfolio" style="padding-bottom: 0px;">
 	<div class="container">
 		<div class="row">
