@@ -43,8 +43,8 @@
 					<p>Demonstrated experience in information security 
 						and secure software development roles within the 
 						Department of Defense, healthcare industry, and more. 
-						Skilled in ethical hacking and penetration testing 
-						tools to evaluate network security.</p>
+						Skilled in ethical hacking and pen-testing 
+						tools to evaluate security.</p>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6">
