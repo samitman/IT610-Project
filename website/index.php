@@ -89,7 +89,7 @@
 				<img src="images/article2.jpg" style="width:500px;height:300px;" onclick="javascript:window.location='https://news.njit.edu/senior-success-sam-itmans-passion-leads-cybersecurity-career';" />
 			</div>
 			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="images/githubImage.jpg" style="width:500px;height:300px;" onclick="javascript:window.location='https://github.com/samitman';" />
+				<img src="images/githubImage.jpg" style="width:500px;height:300px;" onclick="javascript:window.location='https://github.com/samitman/IT610-Project';" />
 			</div>
 		</div>
 	</div>

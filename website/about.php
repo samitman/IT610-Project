@@ -82,8 +82,7 @@
 	</div>
 	<div class="col-md-6 col-sm-6">
 		<h3>Project Info</h3>
-		<p>This website is hosted on an AWS EC2 Linux instance running an Apache2 web server.</p>
-		<p>Domain name configured through AWS Route 53, and SSL certificate configured through certbot.</p>
+		<p>This website is hosted on an an Apache2 web server running on a Docker container.</p>
 		<p>Visit Github link provided on home page for more information!</p>
 	</div>
 	<div class="col-md-6 col-sm-6">
