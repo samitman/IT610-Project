@@ -9,5 +9,6 @@ The website and database components will be distinct and called by a docker comp
 
 Midterm Status:
 Website runs via single docker container!
+
 AWS ECR Link: public.ecr.aws/n3v2g3q9/itman-it610-project:latest
 
