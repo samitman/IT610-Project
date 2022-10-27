@@ -21,20 +21,41 @@ include("./partials/scripts.html");
 
 	<!-- contact section -->
 	<div id="contact">
+		<?php
+		if (isset($_POST["submit"])) {
+			$name = null;
+			$email = null;
+			$subject = null;
+			$message = null;
+			if (isset($_POST["name"])) {
+				$name = $_POST["name"];
+			}
+			if (isset($_POST["email"])) {
+				$email = $_POST["email"];
+			}
+			if (isset($_POST["subject"])) {
+				$subject = $_POST["subject"];
+			}
+			if (isset($_POST["message"])) {
+				$message = $_POST["message"];
+			}
+			echo "<br><div style='margin-left:40%;color:#d54ab6;'>Thanks for your message, $name!</div>";
+		}
+		?>
 		<div id="container">
-			<form style="margin-left:10%;">
+			<form method="POST" style="margin-left:10%;">
 				<ul class="form-style-1" style="list-style-type: none;">
 					<li>
 						<label>Full Name <span class="required">:</span></label><br>
-						<input type="text" name="field1" class="field-divided" placeholder="Full Name" required/> 
+						<input type="text" name="name" class="field-divided" placeholder="Full Name" required />
 					</li><br>
 					<li>
 						<label>Email <span class="required">:</span></label><br>
-						<input type="email" name="field3" class="field-long" placeholder="Email" required/>
+						<input type="email" name="email" class="field-long" placeholder="Email" required />
 					</li><br>
 					<li>
 						<label>Subject</label><br>
-						<select name="field4" class="field-select" style="height:35px;">
+						<select name="subject" class="field-select" style="height:35px;">
 							<option value="Job Opportunity">Job Opportunity</option>
 							<option value="Social">Social</option>
 							<option value="General Question">General</option>
@@ -42,10 +63,10 @@ include("./partials/scripts.html");
 					</li><br>
 					<li>
 						<label>Your Message <span class="required">:</span></label><br>
-						<textarea name="field5" id="field5" class="field-long field-textarea" style="height:30%;width:50%;" required></textarea>
+						<textarea name="message" id="field5" class="field-long field-textarea" style="height:30%;width:50%;" required></textarea>
 					</li><br>
 					<li>
-						<input type="submit" value="Submit" id="submit_button" style="background-color:#d54ab6;color: whitesmoke;"/>
+						<input type="submit" value="Submit" name="submit" id="submit_button" style="background-color:#d54ab6;color: whitesmoke;" />
 					</li>
 				</ul>
 			</form>
@@ -59,5 +80,4 @@ include("./partials/scripts.html");
 			</div>
 		</div>
 	</div>
-
 </body>
