@@ -1,6 +1,7 @@
 <?php
 include("./partials/head_info.html");
 include("./partials/scripts.html");
+require("./db_connector.php");
 ?>
 
 <body>
@@ -22,28 +23,34 @@ include("./partials/scripts.html");
 	<!-- contact section -->
 	<div id="contact">
 		<?php
-		if (isset($_POST["submit"])) {
-			$name = null;
-			$email = null;
-			$subject = null;
-			$message = null;
-			if (isset($_POST["name"])) {
-				$name = $_POST["name"];
-			}
-			if (isset($_POST["email"])) {
-				$email = $_POST["email"];
-			}
-			if (isset($_POST["subject"])) {
-				$subject = $_POST["subject"];
-			}
-			if (isset($_POST["message"])) {
-				$message = $_POST["message"];
-			}
-			echo "<br><div style='margin-left:40%;color:#d54ab6;'>Thanks for your message, $name!</div>";
+			#establish connection to db
+			$db = db_connect();
 
-			#todo: insert into database
-		}
+			#retrieve information from form
+			if (isset($_POST["submit"])) {
+				$name = null;
+				$email = null;
+				$subject = null;
+				$message = null;
+				if (isset($_POST["name"])) {
+					$name = $_POST["name"];
+				}
+				if (isset($_POST["email"])) {
+					$email = $_POST["email"];
+				}
+				if (isset($_POST["subject"])) {
+					$subject = $_POST["subject"];
+				}
+				if (isset($_POST["message"])) {
+					$message = $_POST["message"];
+				}
+				echo "<br><div style='margin-left:40%;color:#d54ab6;'>Thanks for your message, $name!</div>";
+
+				#todo: insert into database
+			}
+		
 		?>
+
 		<div id="container">
 			<form method="POST" style="margin-left:10%;">
 				<ul class="form-style-1" style="list-style-type: none;">
