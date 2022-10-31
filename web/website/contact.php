@@ -40,6 +40,8 @@ include("./partials/scripts.html");
 				$message = $_POST["message"];
 			}
 			echo "<br><div style='margin-left:40%;color:#d54ab6;'>Thanks for your message, $name!</div>";
+
+			#todo: insert into database
 		}
 		?>
 		<div id="container">

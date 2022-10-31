@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  web:
+    image: php:7.2-apache
+    container_name: web
+    volumes:
+      - ./web/website:/var/www/html
+    ports:
+      - 8000:80
