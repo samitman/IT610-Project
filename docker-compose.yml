@@ -23,11 +23,16 @@ services:
       MYSQL_DATABASE: db
       MYSQL_USER: sam
       MYSQL_PASSWORD: changeme
+    volumes:
+      - mysql-data:/var/lib/mysql
 
   adminer:
     image: adminer
     restart: always
     ports:
       - 8080:8080  
+
+volumes:
+  mysql-data:
   
     

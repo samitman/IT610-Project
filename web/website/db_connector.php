@@ -10,11 +10,11 @@ function db_connect() {
 
     if(!isset($db)){
         $db = new mysqli($host,$user,$password,$db_name);
-        echo "<br><div style='margin-left:40%;color:#d54ab6;'>Connected to DB! :D</div>";
+        #echo "Connected to DB!";
     }
 
     if($db->connect_error){
-        echo "<br><div style='margin-left:40%;color:#d54ab6;'>Could not connect to DB! :(</div>";
+        echo "Could not connect to DB!";
         exit;
     }
 
