@@ -12,6 +12,7 @@ services:
       - ./web/website:/var/www/html
     ports:
       - 80:80
+
   db:
     container_name: db
     image: mysql:8.0
@@ -22,6 +23,11 @@ services:
       MYSQL_DATABASE: db
       MYSQL_USER: sam
       MYSQL_PASSWORD: changeme
+
+  adminer:
+    image: adminer
+    restart: always
     ports:
-      - 8000:3306
+      - 8080:8080  
+  
     
