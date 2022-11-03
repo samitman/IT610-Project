@@ -23,32 +23,39 @@ require("./db_connector.php");
 	<!-- contact section -->
 	<div id="contact">
 		<?php
-			#establish connection to db
-			$db = db_connect();
+		#establish connection to db
+		$db = db_connect();
 
-			#retrieve information from form
-			if (isset($_POST["submit"])) {
-				$name = null;
-				$email = null;
-				$subject = null;
-				$message = null;
-				if (isset($_POST["name"])) {
-					$name = $_POST["name"];
-				}
-				if (isset($_POST["email"])) {
-					$email = $_POST["email"];
-				}
-				if (isset($_POST["subject"])) {
-					$subject = $_POST["subject"];
-				}
-				if (isset($_POST["message"])) {
-					$message = $_POST["message"];
-				}
-				echo "<br><div style='margin-left:40%;color:#d54ab6;'>Thanks for your message, $name!</div>";
-
-				#todo: insert into database
+		#retrieve information from form
+		if (isset($_POST["submit"])) {
+			$name = null;
+			$email = null;
+			$subject = null;
+			$message = null;
+			if (isset($_POST["name"])) {
+				$name = $_POST["name"];
 			}
-		
+			if (isset($_POST["email"])) {
+				$email = $_POST["email"];
+			}
+			if (isset($_POST["subject"])) {
+				$subject = $_POST["subject"];
+			}
+			if (isset($_POST["message"])) {
+				$message = $_POST["message"];
+			}
+
+			#insert into database
+			$sql = "INSERT INTO Messages (name,email,subject,message) 
+			VALUES ('$name', '$email', '$subject', '$message')";
+
+			if ($db->query($sql) === TRUE) {
+				echo "<br><div style='margin-left:40%;color:#d54ab6;'>Thanks for your message, $name!</div>";
+			} else {
+				echo "Error: " . $sql . "<br>" . $db->error;
+			}
+		}
+
 		?>
 
 		<div id="container">
