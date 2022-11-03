@@ -56,11 +56,11 @@ require("./db_connector.php");
 				<ul class="form-style-1" style="list-style-type: none;">
 					<li>
 						<label>Full Name <span class="required">:</span></label><br>
-						<input type="text" name="name" class="field-divided" placeholder="Full Name" required />
+						<input type="text" name="name" class="field-divided" placeholder="Full Name" maxlength="60" required />
 					</li><br>
 					<li>
 						<label>Email <span class="required">:</span></label><br>
-						<input type="email" name="email" class="field-long" placeholder="Email" required />
+						<input type="email" name="email" class="field-long" placeholder="Email" maxlength="60" required />
 					</li><br>
 					<li>
 						<label>Subject</label><br>
@@ -72,7 +72,7 @@ require("./db_connector.php");
 					</li><br>
 					<li>
 						<label>Your Message <span class="required">:</span></label><br>
-						<textarea name="message" id="field5" class="field-long field-textarea" style="height:30%;width:50%;" required></textarea>
+						<textarea name="message" id="field5" class="field-long field-textarea" style="height:30%;width:50%;" maxlength="500" required></textarea>
 					</li><br>
 					<li>
 						<input type="submit" value="Submit" name="submit" id="submit_button" style="background-color:#d54ab6;color: whitesmoke;" />
